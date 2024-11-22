@@ -42,4 +42,16 @@ Ensure the following dependencies are installed:
    ./supersearch
 
 
-   
+   ##Commands and Arguements
+
+   **Index Creation**
+   Create an index for a directory containing JSON files:
+   ./supersearch index <directory_with_json_files>
+
+   **Perform a Query**
+   Search the indexed data using specific terms:
+   ./supersearch query "search terms"
+
+   **Launch the User Interface**
+   Start an interactive menu for creating indices, running queries, and managing data:
+   ./supersearch ui
