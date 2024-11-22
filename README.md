@@ -43,7 +43,7 @@ Ensure the following dependencies are installed:
 
 ---
 
-   ##Commands and Arguements
+## Commands and Arguements
 
    **Index Creation**
    Create an index for a directory containing JSON files:
