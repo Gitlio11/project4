@@ -36,3 +36,4 @@ The `supersearch` executable is precompiled and located in the `build` directory
    Open a terminal and run:
    ```bash
    cd /path/to/Project4wvdatastructures\ copy/build
+This will depend on where the path of the project is.
