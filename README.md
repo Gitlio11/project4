@@ -1,8 +1,6 @@
-# Design Documentation
+# Supersearch Project
 
 Collaborators: Emilio Munoz, Tiffany Nguyen
-
-# Supersearch Project
 
 ## Overview
 The `supersearch` program is a custom search engine built to index and query a large collection of financial news articles. It uses an AVL tree-based inverted index to handle documents and metadata efficiently.
