@@ -2,7 +2,39 @@
 
 Collaborators: Emilio Munoz, Tiffany Nguyen
 
-## Overview
-The project involves building a search engine for financial news articles from January to May 2018. The dataset contains over 300,000 JSON-formatted articles. The engine enables users to search for articles based on keywords, organizations, and people, providing ranked results based on relevance.
+# Supersearch Project
 
-The system employs a modular object-oriented architecture with key components such as document parsing, indexing, query processing, and a persistence mechanism.
+## Overview
+The `supersearch` program is a custom search engine built to index and query a large collection of financial news articles. It uses an AVL tree-based inverted index to handle documents and metadata efficiently.
+
+### Key Features:
+- **Interactive User Interface:** Create indices, perform queries, and manage indices.
+- **Advanced Queries:** Includes support for operators like `ORG:` and `PERSON:` for filtering results based on metadata.
+- **Relevance Ranking:** Uses term frequency-inverse document frequency (tf-idf) and metadata for ranking results.
+- **Persistence:** Saves indices to disk for reuse across sessions.
+
+---
+
+## Installation and Setup
+
+### Prerequisites
+Ensure the following dependencies are installed:
+- **C++ Compiler:** GCC or Clang (supporting C++17 or later).
+- **JSON Parser:** The project uses [RapidJSON](https://rapidjson.org/), which is included in the template.
+
+### Dataset
+- Download the dataset: [US Financial News Articles](https://www.kaggle.com/jeet2016/us-financial-news-articles).
+- The dataset contains over 300,000 articles in JSON format. Use the dataset for indexing and testing the program.
+
+---
+
+## Running the Program
+
+### Locate the Executable
+The `supersearch` executable is precompiled and located in the `build` directory.
+
+### How to Run
+1. **Navigate to the Build Directory**  
+   Open a terminal and run:
+   ```bash
+   cd /path/to/Project4wvdatastructures\ copy/build
