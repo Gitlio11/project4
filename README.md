@@ -1,4 +1,4 @@
-# Supersearch Project
+# Search Engine Project
 
 Collaborators: Emilio Munoz, Tiffany Nguyen
 
