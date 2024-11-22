@@ -41,6 +41,7 @@ Ensure the following dependencies are installed:
    Execute the supersearch program:
    ./supersearch
 
+---
 
    ##Commands and Arguements
 
