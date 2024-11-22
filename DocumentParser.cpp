@@ -39,7 +39,7 @@ void DocumentParser::parse(string directoryName)
                     }
 
                     std::replace(s.begin(), s.end(), ' ', '_');
-                    indexHandler->insertPerson(s, docID, title, entry.path().c_str());
+                   indexHandler->insertPerson(s, docID, title, entry.path().string());
                 }
 
                 for (auto& v : doc["entities"]["organizations"].GetArray()) {
@@ -50,7 +50,7 @@ void DocumentParser::parse(string directoryName)
                     }
 
                     std::replace(s.begin(), s.end(), ' ', '_');
-                    indexHandler->insertPerson(s, docID, title, entry.path().c_str());
+                    indexHandler->insertPerson(s, docID, title, entry.path().string());
                 }
 
                 string text = doc["text"].GetString();
@@ -70,7 +70,7 @@ void DocumentParser::parse(string directoryName)
                     }
                     s.resize(j);
                     Porter2Stemmer::stem(s);
-                    indexHandler->insertWord(s, docID, title, entry.path().c_str());
+                    indexHandler->insertPerson(s, docID, title, entry.path().string());
                 }
             }
         }
