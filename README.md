@@ -1,6 +1,6 @@
 # Search Engine Project
 
-Collaborators: Emilio Munoz, Tiffany Nguyen
+Collaborators: Emilio Munoz, Tiffany Nguyen, Antonio Flores, Jocelin Macias, Pierre Martinez
 
 
 ## Overview
